@@ -24,6 +24,6 @@ https://jitpack.io/#rvolo/beatsaver-api
 <dependency>
   <groupId>com.github.rvolo</groupId>
   <artifactId>beatsaver-api</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
 </dependency>
 ```
