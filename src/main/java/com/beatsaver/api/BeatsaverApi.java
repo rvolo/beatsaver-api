@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public interface BeatsaverApi {
-    default BeatsaverApi getInstance() {
+    static BeatsaverApi getInstance() {
         return new BeatsaverApiImpl();
     }
 
-    default BeatsaverApi getInstance(String hostname, ObjectMapper mapper, OkHttpClient httpClient) {
+    static BeatsaverApi getInstance(String hostname, ObjectMapper mapper, OkHttpClient httpClient) {
         return new BeatsaverApiImpl(hostname, mapper, httpClient);
     }
 
